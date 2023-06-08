@@ -42,7 +42,7 @@
             label1.Name = "label1";
             label1.Size = new Size(168, 104);
             label1.TabIndex = 0;
-            label1.Text = "Apate v1.4.1\r\n简洁、快速地对文件进行格式伪装\r\nhttps://github.com/rippod/apate";
+            label1.Text = "Apate v1.4.2\r\n简洁、快速地对文件进行格式伪装\r\nhttps://github.com/rippod/apate";
             // 
             // pictureBox1
             // 

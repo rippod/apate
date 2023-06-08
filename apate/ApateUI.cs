@@ -127,7 +127,7 @@ namespace apate
         {
             Activate();
             //弹窗确认
-            InfoBox infoBox = new InfoBox("注意！", "如果拖入未经过伪装的文件，可能会对该文件造成严重的数据破坏，且无法恢复！请务必做好备份！\r\n\r\n是否继续？");
+            InfoBox infoBox = new InfoBox("注意！", "如果拖入未经过伪装的文件，可能会对该文件造成严重的数据破坏，且无法恢复！请务必做好备份！\r\n是否继续？");
             //如果主窗口是置顶，则弹窗也置顶
             if (TopMost == true)
             {
