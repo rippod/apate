@@ -1,4 +1,4 @@
-## 📗工具简介
+## 📑工具简介  
   apate是一款能够简洁、快速地对文件进行格式伪装的工具，可以在某些情况下绕过限制，如**某些文件分享平台**的文件格式限制。  
   支持**超大文件**，无需等待漫长读写，瞬间完成伪装或还原。  
   开源项目主页：[Github: rippod/apate](https://github.com/rippod/apate)  
@@ -7,7 +7,7 @@
   1.安装运行环境：根据自己的操作系统，选择安装[.NET桌面运行时6.0（64位）](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[.NET桌面运行时6.0（32位）](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
   2.下载apate：[下载最新版v1.4.1](https://github.com/rippod/apate/releases/download/apate.v1.4.1/apate.v1.4.1.zip)  
   
-## 📖使用说明  
+## 📗使用说明  
   1. 一键伪装  
   使用预置面具文件，对真身文件进行伪装。伪装后，真身文件看起来与面具文件一样。适用大部分应用场景。  
   2. 面具伪装  
@@ -15,7 +15,7 @@
   3. 简易伪装  
   不使用面具文件，而是使用指定格式的二进制特征文件头，对真身文件进行伪装。伪装后，真身文件对于操作系统来说已经是指定格式，只是无法被双击执行或播放。对于EXE的简易伪装，建议真身文件不超过2G。其他格式的简易伪装适配场景较少，不建议使用。  
 
-## 软件特性  
+## ⭐软件特性  
   1. 针对超大文件，可以做到瞬间伪装/还原完毕，无需任何等待。  
   2. 针对文件的还原做了优化，无需知道文件的伪装面具即可一键还原。  
   3. 针对真身文件的原始文件头做了加密处理，不易被检测出原始格式。  
