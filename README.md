@@ -1,6 +1,6 @@
-## 🏷工具简介<br>
-apate是一款能够简洁、快速地对文件进行格式伪装的工具，可以在某些情况下绕过限制，如某些大厂文件分享平台的分享限制。<br>
-开源项目主页：[Github: rippod/apate](https://github.com/rippod/apate)<br>
+## 🏷工具简介
+apate是一款能够简洁、快速地对文件进行格式伪装的工具，可以在某些情况下绕过限制，如某些大厂文件分享平台的分享限制。
+开源项目主页：[Github: rippod/apate](https://github.com/rippod/apate)
 <br>
 ## 📥下载方法<br>
 1.安装运行环境：根据自己的操作系统，选择安装[.NET桌面运行时6.0（64位）](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[.NET桌面运行时6.0（32位）](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)<br>
