@@ -4,8 +4,8 @@
   开源项目主页：[Github: rippod/apate](https://github.com/rippod/apate)  
   
 ## 📥下载方法
-  1.安装运行环境：根据自己的操作系统，选择安装[<u>**.NET桌面运行时6.0（64位）**</u>](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[.NET桌面运行时6.0（32位）](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
-  2.下载apate：**[下载最新版v1.4.2 from Github](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip)**或者**[下载最新版v1.4.2 from 蓝奏云](https://wwve.lanzoup.com/iEaSU0ymznza)**  
+  1.安装运行环境：根据自己的操作系统，选择安装[**.NET桌面运行时6.0（64位）**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[**.NET桌面运行时6.0（32位）**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
+  2.下载apate：[**下载最新版v1.4.2 from Github**](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip)或者[**下载最新版v1.4.2 from 蓝奏云**](https://wwve.lanzoup.com/iEaSU0ymznza)  
   
 ## 📗使用说明  
   1. 一键伪装  
