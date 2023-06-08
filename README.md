@@ -1,11 +1,11 @@
 ## 📑工具简介  
   apate是一款能够简洁、快速地对文件进行格式伪装的工具，可以在某些情况下绕过限制，如**某些文件分享平台**的文件格式限制。  
   支持**超大文件**，无需等待漫长读写，瞬间完成伪装或还原。  
-  开源项目主页：[Github: rippod/apate](https://github.com/rippod/apate)  
+  开源项目主页：[**_Github: rippod/apate_**](https://github.com/rippod/apate)  
   
 ## 📥下载方法
-  1.安装运行环境：根据自己的操作系统，选择安装[**.NET桌面运行时6.0（64位）**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[**.NET桌面运行时6.0（32位）**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
-  2.下载apate：[**下载最新版v1.4.2 from Github**](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip)或者[**下载最新版v1.4.2 from 蓝奏云**](https://wwve.lanzoup.com/iEaSU0ymznza)  
+  1.安装运行环境：根据自己的操作系统，选择安装[**_.NET桌面运行时6.0（64位）_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[**_.NET桌面运行时6.0（32位）_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
+  2.下载apate：[**_下载最新版v1.4.2 from Github_**](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip)或者[**_下载最新版v1.4.2 from 蓝奏云_**](https://wwve.lanzoup.com/iEaSU0ymznza)  
   
 ## 📗使用说明  
   1. 一键伪装  
