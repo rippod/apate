@@ -5,7 +5,7 @@
   
 ## 📥下载方法
   1.安装运行环境：根据自己的操作系统，安装.NET桌面运行时6.0：[**_64位安装包_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer) 或者 [**_32位安装包_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
-  2.下载apate：最新版v1.4.2 [**_from Github_**](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip) 或者 [**_from 蓝奏云_**](https://wwve.lanzoup.com/iEaSU0ymznza)  
+  2.下载apate：最新版v1.4.2：[**_from Github_**](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip) 或者 [**_from 蓝奏云_**](https://wwve.lanzoup.com/iEaSU0ymznza)  
   
 ## 📗使用说明  
   1. 一键伪装  
