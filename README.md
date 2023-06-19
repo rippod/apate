@@ -4,8 +4,8 @@
   开源项目主页：[**_Github: rippod/apate_**](https://github.com/rippod/apate)  
   
 ## 📥下载方法
-  1.安装运行环境：根据自己的操作系统，选择安装[**_.NET桌面运行时6.0（64位）_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[**_.NET桌面运行时6.0（32位）_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
-  2.下载apate：[**_下载最新版v1.4.2 from Github_**](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip)或者[**_下载最新版v1.4.2 from 蓝奏云_**](https://wwve.lanzoup.com/iEaSU0ymznza)  
+  1.安装运行环境：根据自己的操作系统，安装.NET桌面运行时6.0：[**_64位安装包_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer)或者[**_32位安装包_**](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer)  
+  2.下载apate：最新版v1.4.2 [**_from Github_**](https://github.com/rippod/apate/releases/download/apate.v1.4.2/apate.v1.4.2.zip)或者[**_from 蓝奏云_**](https://wwve.lanzoup.com/iEaSU0ymznza)  
   
 ## 📗使用说明  
   1. 一键伪装  
@@ -18,7 +18,8 @@
 ## ⭐软件特性  
   1. 针对超大文件，可以做到瞬间伪装/还原完毕，无需任何等待。  
   2. 针对文件的还原做了优化，无需知道文件的伪装面具即可一键还原。  
-  3. 针对真身文件的原始文件头做了加密处理，不易被检测出原始格式。  
+  3. 针对真身文件的原始文件头做了加密处理，不易被检测出原始格式。
+  4. 支持批量拖拽，支持文件夹拖拽。  
 
 ## ❗注意事项  
   1. 使用前请务必做好数据备份。  
@@ -27,13 +28,10 @@
 
 ## 🙋FAQ  
 ### 1. copy /b a.jpg+b.zip 原理是这个吗？  
-  技术上完全不同，但有类似之处。比起copy命令有如下优点：  
-    1. 针对超大文件，可以做到瞬间伪装/还原完毕，无需任何等待。  
-    2. 针对文件的还原做了优化，无需知道文件的伪装面具长度即可一键还原。  
-    3. 针对真身文件的原始文件头做了加密处理，不易被检测出原始格式。  
+  技术上不同，但有类似之处。比copy命令伪装更快速、还原更方便，具体特性请参阅软件特性章节。
   
 ### 2. 一键伪装只支持单一的mp4格式，建议增加更多选项  
-  暂不考虑增加其他选项。如果需要使用其他格式，可以使用面具伪装功能，自定义面具文件。  
+  由于mp4格式适用范围最广，所以暂不考虑增加其他选项。如果需要使用其他格式，可以使用面具伪装模式，自定义面具文件。  
 
 ## 🆕更新记录  
   ### v1.4.2  
