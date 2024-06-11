@@ -92,8 +92,8 @@ namespace apate
 				(int successCount, AggregateException exception) = Disguiser.DirectoryTree(selectPath, _disguiser.Disguise);
 				toolStripStatusLabel1.Text = $"完成！成功{successCount}个，失败{exception.InnerExceptions.Count}个";
 				if (exception.InnerExceptions.Any())
-				{ 
-					MessageBox.Show(string.Join("\r\n", exception.InnerExceptions)); 
+				{
+					MessageBox.Show(string.Join("\r\n", exception.InnerExceptions.Select(e => e.Message))); 
 				}
 			}
 			else
@@ -129,7 +129,7 @@ namespace apate
 				toolStripStatusLabel1.Text = $"完成！成功{successCount} 个，失败 {exception.InnerExceptions.Count}个";
 				if (exception.InnerExceptions.Any())
 				{
-					MessageBox.Show(string.Join("\r\n", exception.InnerExceptions));
+					MessageBox.Show(string.Join("\r\n", exception.InnerExceptions.Select(e=>e.Message)));
 				}
 			}
 		}
