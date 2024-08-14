@@ -78,7 +78,7 @@ public class Disguiser : IDisposable
 			using FileStream readStream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
 			using BinaryWriter binary = new BinaryWriter(fileStream);
 
-			fileStream.SetLength(fileStream.Length+ _mask.Length);
+			fileStream.SetLength(fileStream.Length + _mask.Length);
 			ReverseAndOverwriteFileRange(readStream, fileStream, 0, fileStream.Length, Math.Min(fileStream.Length, readStream.Length));
 
 			//使用最后的若干字节记录面具文件长度
@@ -115,6 +115,7 @@ public class Disguiser : IDisposable
 		}
 		File.Move(filePath, new Uri(new Uri(filePath), Path.GetFileNameWithoutExtension(filePath)).LocalPath);
 	}
+	
 
 	/// <summary>
 	/// 读取流的部分数据，写入到流指定位置 
@@ -130,18 +131,8 @@ public class Disguiser : IDisposable
 		using IMemoryOwner<byte>? owner = MemoryPool<byte>.Shared.Rent();//从内存池借用一段内存做缓存
 		Span<byte> span = owner.Memory.Span;//获取内存
 
-		try
-		{
-			readStream.Position = readIndex;//指定读取开始位置
-			writeStream.Position = writeIndex;//指定写入开始位置
-		}
-		catch (Exception)
-		{
-			MessageBox.Show(readIndex + ":" + writeIndex);
-
-			throw;
-		}
-
+		readStream.Position = readIndex;//指定读取开始位置
+		writeStream.Position = writeIndex;//指定写入开始位置
 
 		int bytesRead, totalBytesRead = 0;
 
@@ -159,18 +150,10 @@ public class Disguiser : IDisposable
 				span = span[..^(totalBytesRead - (int)length)];//裁切
 			}
 			span.Reverse();//反转数据
-			try
-			{
-				writeStream.Position -= bytesRead;//预留写入空间
-				writeStream.Write(span);//写入数据
-				writeStream.Position -= bytesRead;//回到写入前的位置准备下一次写入
-			}
-			catch (Exception)
-			{
-				MessageBox.Show(writeStream.Position + ":" + bytesRead);
-				throw;
-			}
 
+			writeStream.Position -= bytesRead;//预留写入空间
+			writeStream.Write(span);//写入数据
+			writeStream.Position -= bytesRead;//回到写入前的位置准备下一次写入
 		}
 	}
 	/// <summary>
